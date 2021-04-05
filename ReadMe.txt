@@ -36,5 +36,3 @@ you need to install
 > Please post whatever changes you have made to our whatsapp group AND comment them in the source code
 
 > If you have any questions post them to the whatsapp group or contact me directly
-
-ZENITH YOU IDIOT!!!
