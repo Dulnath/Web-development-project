@@ -65,16 +65,16 @@ li:nth-child(2):hover~.animation {
 }
 
 li:nth-child(3):hover~.animation {
-    width: 180px;
+    width: 100px;
     left: 210px;
 }
 
 li:nth-child(4):hover~.animation {
-    width: 180px;
+    width: 100px;
     left: 310px;
 }
 
 li:nth-child(4):hover~.animation {
-    width: 180px;
+    width: 100px;
     left: 410px;
 }
