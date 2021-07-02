@@ -6,10 +6,11 @@ const Navbar = (props) =>{
         <div className="top">
             <nav className="nav">
                 <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="entertainment.html">Entertainment</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li className="animation"></li>
+                    <li><a>Home</a></li>
+                    <li><a>Courses</a></li>
+                    <li><a>Calender</a></li>
+                    <li><a>News</a></li>
+                    <li><a>About Us</a></li>
                 </ol>
             </nav>
         </div>
