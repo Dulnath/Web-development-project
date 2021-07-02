@@ -59,17 +59,17 @@ li:nth-child(1):hover~.animation {
     width: 100x;
 }
 
-li:nth-child(2):hover~.animation {
+li:nth-child(1):hover~.animation {
     width: 120px;
     left: 40px;
 }
 
-li:nth-child(3):hover~.animation {
+li:nth-child(2):hover~.animation {
     width: 140px;
     left: 350px;
 }
 
-li:nth-child(4):hover~.animation {
+li:nth-child(3):hover~.animation {
     width: 100px;
     left: 500px;
 }
