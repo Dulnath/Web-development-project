@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import Navbar from './navbar';
 import { useHistory } from 'react-router-dom';
 import background from './images/background.jpg'
 
