@@ -16,6 +16,7 @@ const Header = (props) => {
           backgroundImage: `url(${background})`,
           height: '100vh',
           width:'100%',
+          display:'block',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover'
@@ -26,10 +27,10 @@ const Header = (props) => {
         <div style={styles.header}>
             <div style={styles.content}>
             <div className="front" style={{position:'relative',top:'60px'}}>
-            <br/><br/><br/><br/><br/>
-            <h1 style = {{color:props.color, fontSize: props.fontSize, fontFamily:props.fontFamily}}>Welcome to CWC</h1>
-            <h3 style={{fontFamily:'Arial'}}>ONLINE LEARNING PLATFORM</h3><br/><br/>
-            <h1 style = {{color:'black', fontFamily:'Arial', fontSize:'50px'}}>LOGIN AS A</h1><br/><br/>
+            <br/><br/><br/>
+            <h1 style = {{color:'blue', fontFamily:'noteworthy', fontSize:'50px'}}>Welcome to CWC</h1><br />
+            <h3 style={{fontFamily:'Arial', fontSize:'30px'}}>ONLINE LEARNING <br/>PLATFORM</h3><br/><br/>
+            <h1 style = {{color:'blue', fontFamily:'Arial', fontSize:'30px'}}>LOGIN AS A</h1><br/><br/>
             
                 <Button onClick={ClickStudent} text="Student" width="300px"  height="50px"/>
                 <Button onClick={ClickTeacher} text="Teacher" width="300px" height="50px"/>
