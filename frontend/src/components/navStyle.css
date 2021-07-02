@@ -74,7 +74,7 @@ li:nth-child(4):hover~.animation {
     left: 310px;
 }
 
-li:nth-child(4):hover~.animation {
+li:nth-child(5):hover~.animation {
     width: 100px;
     left: 410px;
 }
