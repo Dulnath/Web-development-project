@@ -16,6 +16,7 @@ button {
 button:hover {
   transform: scale(1.2);
   background-color: rgb(236, 32, 219);
+  color: rgb(40, 36, 235);
 }
 
 button::click {
@@ -33,4 +34,29 @@ button::click {
   display: flex;
   align-self: center;
   padding-left: 400px;
+}
+@media only screen and (min-width: 300px) {
+  button {
+    background-color: rgb(236, 32, 219);
+    color: rgb(40, 36, 235);
+    width: 100px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    border: 1px solid rgb(22, 22, 19);
+    transition: all 0.4s;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  button {
+    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    border: 1px solid rgb(248, 233, 150);
+    transition: all 0.4s;
+  }
 }
