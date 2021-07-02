@@ -136,6 +136,7 @@ textarea {
     height: 50px;
     margin: auto;
     border-radius: 30px;
+    background-color: transparent;
     position: relative;
     top: 70px;
     padding: 0px 0 40px 0;
