@@ -27,6 +27,7 @@ const Header = (props) => {
 
     return (
         <div style={styles.header}>
+            <Navbar/>
             <div style={styles.content}>
             <div className="front" style={{position:'relative',top:'60px'}}>
             <br/><br/><br/><br/><br/>

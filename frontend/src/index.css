@@ -19,8 +19,6 @@ button:hover {
     background-color: blueviolet;
 }
 
-button::click {}
-
 .front {
     margin: auto;
     align-items: center;
