@@ -11,6 +11,7 @@ const Navbar = (props) =>{
                     <li><a>Calender</a></li>
                     <li><a>News</a></li>
                     <li><a>About Us</a></li>
+                    <li class="animation"></li>
                 </ol>
             </nav>
         </div>
