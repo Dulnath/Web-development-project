@@ -22,7 +22,7 @@ body {
 .nav {
     width: 600px;
     height: 60px;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(145, 0, 133);
     overflow: hidden;
     z-index: 30;
 }
