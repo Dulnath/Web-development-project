@@ -71,6 +71,8 @@ const StdSelect = () => {
                     )
                 )
             }
+
+
             { 
                 data.map((teacher) => (
                     <div className="card" key={teacher.id}>
@@ -93,6 +95,7 @@ const StdSelect = () => {
                     )
                 )
             }
+
         </div>
     )
 }
